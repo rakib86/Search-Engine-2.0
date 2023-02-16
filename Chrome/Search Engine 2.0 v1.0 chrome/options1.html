@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>Search Engine 2.0 Setting</title>
+    <link rel="stylesheet" href="options1.css" />
+  </head>
+  <body>
+    <button style="border-radius: 5px; background-color: #282936; margin-bottom: 20px; border: none;"><a href="http://youtube.com" target="_blank" style=" color: rgb(255, 255, 255);">watch setup guide</a></button>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <img src="images/logo.png" alt="" srcset="" style="width: 60%; display: block; margin-left: auto; margin-right: auto; margin-top: 20%;">
+        <div class="wrapper">
+          <div class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <a href="https://www.instagram.com/" target="_blank">
+              <span><i class="fab fa-instagram"></i></span>
+            </a>
+          </div>
+          <div class="icon github">
+            <div class="tooltip">Github</div>
+            <a href="https://github.com/rakiburrahamancs" target="_blank">
+              <span><i class="fab fa-github"></i></span>
+            </a>
+          </div>
+          <div class="icon youtube">
+            <div class="tooltip">Youtube</div>
+            <a href="https://www.youtube.com/@raktechtechnologies" target="_blank">
+              <span><i class="fab fa-youtube"></i></span>
+            </a>
+          </div>
+          <div class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <a href="https://www.facebook.com/raktech.pro" target="_blank">
+              <span><i class="fab fa-facebook-f"></i></span>
+            </a>
+          </div>
+          <div class="icon twitter">
+            <div class="tooltip">Twitter</div>
+            <a href="https://twitter.com/rakib-cs" target="_blank">
+              <span><i class="fab fa-twitter"></i></span>
+            </a>
+          </div>
+        </div>
+        
+        <p style="text-align: center; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);">©️ RakTech Technologies 2023</p>
+      </div>
+      <div class="form-container sign-in-container">
+        <div class="form">
+          <h1 style="margin-bottom: 30px">setting</h1>
+
+          <div style="margin-bottom: 20px">
+            <button class="chatgpt" style="margin-bottom: 30px">
+              <a href="https://beta.openai.com/account/api-keys" target="_blank">get api key</a>
+            </button>
+            <label>
+              OpenAI API Key:   
+              <input
+                type="password"
+                id="api-key"
+                placeholder="paste api key here"
+              />
+            </label>
+          </div>
+          <button class="chatgpt" style="margin-bottom: 30px">
+            <a href="http://chat.openai.com" target="_blank">setup ChatGPT</a>
+          </button>
+
+          <div>
+            <level>
+              <p>Resolution of genareted images:</p>
+              <select name="resolution" id="resolution">
+                <option value="1024x1024">1024x1024 - ultra HD</option>
+                <option value="512x512">512x512 - HD</option>
+                <option value="256x256">256x256 - SD</option>
+              </select>
+            </level>
+          </div>
+          <div style="margin-bottom: 30px">
+            <label>
+              <p>Number of images per search:</p>
+              <select name="n-images" id="n-images">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </label>
+          </div>
+
+          <button id="save">save</button>
+        </div>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>RakTech Technologies</h1>
+            <p>
+              Our mission is to enhance your internet experience and take it to the next level.<br/>
+              
+            </p>
+            <p style="text-align: center; position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);">Donate to us to improve this project. Bkash: 01706653532</p>
+            <button
+              class="ghost"
+              id="signIn"
+              style="position: absolute; bottom: 20px"
+            >
+              go back
+            </button>
+          </div>
+          <div class="overlay-panel overlay-right">
+          
+            
+
+            
+            <h1>Search Engine 2.0</h1>
+            <p>AI powered tool to change your browsing experience</p>
+            <button class="ghost" id="signUp">info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://rakiburrahamancs.github.io/raktech-live-chat/" target="_blank" style="text-decoration: none;">
+      <button style="background-color: rgb(61, 58, 58); color: white; border-radius: 5px; padding: auto 10px; position: fixed; bottom: 10px; right: 10px;">
+        <p>live chat with us</p>
+      </button>
+    </a>
+    
+  
+    <!-- partial -->
+    <script src="options1.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
+
+

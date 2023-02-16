@@ -1,0 +1,38 @@
+{
+
+
+  "name": "Search Engine 2.0",
+  "description": "Display AI generated answer with google search results and AI generated photos with google image search results",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "host_permissions": ["https://*.openai.com/"],
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options1.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*",
+        "https://www.bing.com/search*",
+        "https://www.duckduckgo.com/*",
+        "https://www.yahoo.com/search*"
+      ],
+      "js": ["content-script.js", "content_script1.js"],
+      "css": ["content-script.css", "content_script1.css"]
+    }
+  ]
+}
