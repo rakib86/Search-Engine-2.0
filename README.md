@@ -2,6 +2,8 @@
 
 Welcome to Search Engine 2.0, a revolutionary Firefox extension developed by Rakibur Rahaman. This extension combines the power of OpenAI and Midjourney with Google search to bring you an unparalleled search experience.
 
+# Right now, 2104 people are using this extension in their browser🔥.
+
 ## Features
 
 - Get AI-generated responses directly from ChatGPT for any search query.
